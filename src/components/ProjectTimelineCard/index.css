@@ -1,0 +1,41 @@
+/* Write your CSS here */
+.project-img {
+  width: 100%;
+}
+.card-details-container {
+  display: flex;
+  justify-content: space-between;
+  margin: 0%;
+  padding: 0%;
+}
+.heading {
+  font-family: roboto;
+  font-size: 21px;
+  font-weight: 700;
+  color: #171f46;
+}
+.icon-details {
+  display: flex;
+  align-items: center;
+}
+.icon-para {
+  margin-left: 5px;
+  font-family: roboto;
+  font-size: 13px;
+  font-weight: 600;
+  color: #1e293b;
+}
+.para {
+  font-family: roboto;
+  font-size: 14px;
+  color: #1e293b;
+  margin: 0;
+  margin-bottom: 15px;
+}
+.link {
+  font-family: roboto;
+  font-size: 22px;
+  font-weight: 600;
+  color: #0967d2;
+  text-decoration: none;
+}

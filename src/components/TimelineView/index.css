@@ -1,0 +1,25 @@
+/* Write your CSS here */
+.app-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+.journey-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 80%;
+}
+.heading {
+  font-family: roboto;
+  font-size: 43px;
+  font-weight: 700;
+  color: #171f46;
+  text-align: center;
+}
+@media screen and (min-width: 768px) {
+  .journey-container {
+    max-width: 1110px;
+  }
+}

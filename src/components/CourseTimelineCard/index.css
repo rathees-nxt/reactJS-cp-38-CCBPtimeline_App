@@ -1,0 +1,43 @@
+/* Write your CSS here */
+.card-details-container {
+  display: flex;
+  justify-content: space-between;
+  margin: 0%;
+  padding: 0%;
+}
+.heading {
+  font-family: roboto;
+  font-size: 21px;
+  font-weight: 700;
+  color: #171f46;
+}
+.icon-details {
+  display: flex;
+  align-items: center;
+}
+.icon-para {
+  margin-left: 5px;
+  font-family: roboto;
+  font-size: 13px;
+  font-weight: 600;
+  color: #1e293b;
+}
+.para {
+  font-family: roboto;
+  font-size: 14px;
+  color: #1e293b;
+  margin: 0;
+  margin-bottom: 15px;
+}
+.card-list-content {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0;
+}
+.card-item {
+  list-style-type: none;
+  background-color: #ccdff7;
+  padding:5px 10px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
